@@ -1,9 +1,8 @@
 import react, { useContext, useEffect, useRef, useState } from "react";
 import {View,StyleSheet, Text,  TextInput,SafeAreaView, ScrollView, ScrollViewComponent, TouchableHighlight,Image, Button } from "react-native";
-import { API_KEY } from '@env';
-import 'react-native-get-random-values';
+import {API_KEY} from 'react-native-dotenv';
 import uuid from 'react-native-uuid';
-import countries from '../data/data';
+import countries from '../data/countries'
 
 
 function Countries({navigation}) {

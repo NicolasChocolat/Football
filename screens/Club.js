@@ -11,8 +11,7 @@ import {
     RefreshControl,
     TextInput
   } from "react-native";
-  import { API_KEY } from '@env';
-  import 'react-native-get-random-values';
+  import {API_KEY} from 'react-native-dotenv';
 
 
 export default function Club({route,navigation}){

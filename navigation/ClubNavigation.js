@@ -7,6 +7,7 @@ import Home from '../screens/Home';
 import Countries from '../screens/Countries';
 import { Joueurs } from '../screens/Joueurs';
 import Joueur from '../screens/Joueur';
+
 const Stack = createBottomTabNavigator();
 
 function ClubNavigation() {

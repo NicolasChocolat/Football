@@ -1,10 +1,11 @@
-import React from 'react'; 
-import {ClubNavigation} from './navigation/ClubNavigation'
-import { StyleSheet } from 'react-native';
+import React from 'react';
+import { StyleSheet, View, Text } from 'react-native';
+import ClubNavigation from './navigation/ClubNavigation';
 
 export default function App() {
   return(
-      <ClubNavigation/>
+     <ClubNavigation/>
+     
   )
 }
 

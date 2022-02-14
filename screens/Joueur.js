@@ -2,8 +2,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Text, View, Button , StyleSheet,Image,SafeAreaView,ScrollView} from "react-native";
-import { API_KEY } from '@env';
-import { EvilIcons } from '@expo/vector-icons';
+import {API_KEY} from 'react-native-dotenv';
 export default function Joueur({navigation,route}) {
 
     const {JoueurId} = route.params;
@@ -86,7 +85,7 @@ export default function Joueur({navigation,route}) {
                              <Text style={styles.text}>{goal} buts marqués</Text>
                              </View>
                              <View style={styles.playerInfo}>
-                             <Text style={styles.text}>{duel} gagnés sur {duelTotal} </Text>
+                             <Text style={styles.text}>{duel} duels gagnés sur {duelTotal} </Text>
                              </View>
 
                             

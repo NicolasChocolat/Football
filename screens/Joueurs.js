@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { View, StyleSheet, Text,Image, SafeAreaView, ScrollView, Button, TouchableHighlight } from "react-native";
-import { API_KEY } from '@env';
+import {API_KEY} from 'react-native-dotenv';
 import uuid from 'react-native-uuid';
 
 export function Joueurs({ navigation,route }){
