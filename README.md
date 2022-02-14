@@ -5,7 +5,7 @@
 
 ### Countries screen
 
-I use an array called countries from the field data so I can get all the countries to use them to get the league by Countrie.
+I use an array called 'countries' from the field data so I can get all the countries to use them to get the league by Countrie.
 
 For this I use an API called  API-FOOTBALL.
 I fetch from the API and did a GET method to have all leagues from a country.
